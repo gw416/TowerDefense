@@ -96,7 +96,7 @@ public class Game extends JFrame implements Runnable {
 
 	@Override
 	public void run() {
-
+		// TODO - runable method will need refactoring
 		double timePerFrame = 1000000000.0 / FPS_SET;
 		double timePerUpdate = 1000000000.0 / UPS_SET;
 
